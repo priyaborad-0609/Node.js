@@ -1,13 +1,13 @@
 const fs = require("fs");
 
-fs.writeFileSync("index.html", "Hello, from Node.js");
+fs.writeFileSync("index.html", "Hello");
 
 const readFile = fs.readFileSync("index.html", "utf8");
 console.log(readFile);
 
 fs.appendFileSync(
   "index.html",
-  "\n Node.js is an open-source, cross-platform JavaScript runtime environment"
+  "\n This is my Web Page.."
 );
 
 // try {
