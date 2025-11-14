@@ -1,34 +1,7 @@
-// import http from "http";
-
-// const server = http.createServer((req, res) => {
-//     if (req.url === "/") {
-//         res.writeHead(200, { "content-type": "text/plain" });
-//         res.end("Home page");
-//     }
-//     else if (req.url === "/about") {
-//         res.writeHead(200, { "content-type": "text/plain" });
-//         res.end("About page");
-//     }
-//     else if (req.url === "/profile") {
-//         res.writeHead(200, { "content-type": "text/plain" });
-//         res.end("Profile Page");
-//     }
-//     else {
-//         res.writeHead(400, { "content-type": "text/plain" });
-//         res.end("404 Page not found");
-//     }
-
-// });
-
-// server.listen(5000, () => {
-//     console.log("server started running...")
-// });
-
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-// Ensure logs folder exists
 if (!fs.existsSync("logs")) {
     fs.mkdirSync("logs");
 }
