@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;   
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;  
+}
+
+/* ---------- Input Card ---------- */
+.input-card {
+  width: 100%;          
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  border-left: 6px solid #4a90e2;
+}
+
+.brand {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Input Fields */
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #d1d9e6;
+  background: #f9fbff;
+  font-size: 15px;
+  width: 100%;
+  transition: 0.2s;
+}
+
+/* ---------- Buttons ---------- */
+.btn-row {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.btn.primary {
+  background: #4a90e2;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #3577c9;
+}
+
+.btn.ghost {
+  background: #e3e9f2;
+  color: #333;
+}
+
+.btn.ghost:hover {
+  background: #d5dde9;
+}
+
+/* ---------- Todo List Card ---------- */
+.list-card {
+  width: 100%;       
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Empty */
+.empty {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  color: #777;
+}
+
+/* Todo list items */
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.todo-item {
+  background: #f9fbff;
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 5px solid #4a90e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.todo-info {
+  max-width: 70%;
+}
+
+.todo-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.todo-desc {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #666;
+}
+
+.todo-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn.small {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.btn.edit {
+  background: #ffe6a7;
+  color: #6d4e00;
+}
+
+.btn.delete {
+  background: #ffb3b3;
+  color: #7a0000;
+}
