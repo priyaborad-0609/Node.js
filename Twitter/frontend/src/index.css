@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f8fa;
+}
+
+.app-root {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.timeline {
+  width: 600px;
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.tweet-form input,
+.tweet-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.tweet-card {
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweet-actions button {
+  margin-right: 8px;
+}
+
+.badge {
+  background: #e1e8ed;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

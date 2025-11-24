@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1763995804303,
+    "username": "TechGuru",
+    "tweet": "Just built my first React app! The component lifecycle is mind-blowing. 🚀 \n#ReactJS #WebDev",
+    "createdAt": "2025-11-24T14:50:04.303Z"
+  },
+  {
+    "id": 1763995845699,
+    "username": "FoodieFan",
+    "tweet": "Tried the new pizza place downtown. The crust was perfectly crispy! 🍕 Who's your favorite local spot?",
+    "createdAt": "2025-11-24T14:50:45.699Z"
+  },
+  {
+    "id": 1763995896669,
+    "username": "EcoWarrior",
+    "tweet": "Switched to solar power at home. Small steps for a greener planet! 🌍 #Sustainability",
+    "createdAt": "2025-11-24T14:51:36.669Z",
+    "editedAt": "2025-11-24T17:50:14.350Z"
+  },
+  {
+    "id": 1764007058974,
+    "username": "TechGuru",
+    "tweet": "Just tried the new VR headset, mind blown!\n#TechLife",
+    "createdAt": "2025-11-24T17:57:38.974Z"
+  }
+]
