@@ -75,4 +75,8 @@ npm start
 Frontend runs on: http://localhost:3000 (make sure proxy is set to backend)
 
 <h3>🚀 Screenshot / UI</h3>
+
 <img width="1360" height="611" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/de3840fa-2a8b-4478-b86b-6e07ea1a7c36" />
+
+<h4>Watch the Mini Twitter app in action! 🎬</h4>
+
