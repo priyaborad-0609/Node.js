@@ -6,12 +6,6 @@
     "createdAt": "2025-11-24T14:50:04.303Z"
   },
   {
-    "id": 1763995845699,
-    "username": "FoodieFan",
-    "tweet": "Tried the new pizza place downtown. The crust was perfectly crispy! 🍕 Who's your favorite local spot?",
-    "createdAt": "2025-11-24T14:50:45.699Z"
-  },
-  {
     "id": 1763995896669,
     "username": "EcoWarrior",
     "tweet": "Switched to solar power at home. Small steps for a greener planet! 🌍 #Sustainability",
@@ -19,9 +13,10 @@
     "editedAt": "2025-11-24T17:50:14.350Z"
   },
   {
-    "id": 1764007058974,
-    "username": "TechGuru",
-    "tweet": "Just tried the new VR headset, mind blown!\n#TechLife",
-    "createdAt": "2025-11-24T17:57:38.974Z"
+    "id": 1764009633393,
+    "username": "SunnyDays",
+    "tweet": "Vacation is going Great! Beach Vibes.........",
+    "createdAt": "2025-11-24T18:40:33.393Z",
+    "editedAt": "2025-11-24T18:41:30.917Z"
   }
 ]
