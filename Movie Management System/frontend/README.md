@@ -133,6 +133,9 @@ Movie-Management-System/
 | GET | `/api/movies/search` | Search by title |
 
 ---
+### ▶️ Project Walkthrough 
+ [Watch Video](https://drive.google.com/file/d/1A5UFXAEM7rbF2JRNhqg6ipxpdEa_IFuj/view?usp=sharing)
+
 
 ## 👩‍💻 Developed By
 
