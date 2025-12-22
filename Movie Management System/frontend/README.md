@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# 🎬 Movie Management System  
+### A Full-Stack MERN Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professionally built **Movie Management System** that allows users to manage movie records with image uploads, search functionality, and a clean, modern user interface.  
+This project demonstrates **real-world full-stack development practices**, from RESTful API design to polished frontend UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Why This Project?
 
-### `npm start`
+Most beginner projects stop at CRUD operations.  
+This project goes a step further by focusing on:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Clean backend architecture  
+- Image handling with file storage  
+- Professional UI & UX  
+- Scalable folder structure  
+- Industry-style coding practices  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+👉 Designed to feel like a **real management system**, not just a demo app.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Key Features
 
-### `npm run build`
+### 🎥 Movie Management
+- Add new movies with poster image
+- Update movie details and poster
+- Delete movies (poster removed from server)
+- View all movies in a card-based layout
+- Dedicated movie detail page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔍 Smart Search
+- Search movies by title
+- Case-insensitive
+- Supports partial matches
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🖼️ Image Upload System
+- Posters uploaded using **Multer**
+- Images stored on server filesystem
+- Database stores only image path
+- Images served publicly for frontend display
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🎨 UI & UX
+- Professional card-based layout
+- Clean forms with validation
+- Image preview before upload
+- Smooth hover effects & transitions
+- Consistent color theme
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend
+- React
+- React Router DOM
+- Axios
+- Custom CSS (UI-focused design)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Multer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Project Folder Structure
+```
+Movie-Management-System/
+│
+├── backend/
+│ ├── config/
+│ │ └── db.js # MongoDB connection
+│ │
+│ ├── controllers/
+│ │ └── movieController.js # Business logic
+│ │
+│ ├── models/
+│ │ └── Movie.js # Movie schema
+│ │
+│ ├── routes/
+│ │ └── movieRoutes.js # API routes
+│ │
+│ ├── middleware/
+│ │ └── upload.js # Multer config
+│ │
+│ ├── uploads/
+│ │ └── posters/ # Stored movie posters
+│ │
+│ ├── server.js # App entry point
+│ ├── package.json
+│ └── .env
+│
+├── frontend/
+│ ├── public/
+│ │ └── index.html
+│ │
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── Navbar.jsx # Navigation bar
+│ │ │ └── MovieCard.jsx # Movie card UI
+│ │ │
+│ │ ├── pages/
+│ │ │ ├── MovieList.jsx # All movies page
+│ │ │ ├── MovieDetails.jsx # Single movie view
+│ │ │ ├── AddMovie.jsx # Add movie form
+│ │ │ └── EditMovie.jsx # Edit movie form
+│ │ │
+│ │ ├── services/
+│ │ │ └── movieApi.js # Axios API config
+│ │ │
+│ │ ├── App.js
+│ │ ├── index.js
+│ │ └── index.css
+│ │
+│ └── package.json
+│
+├── README.md
+└── .gitignore
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔗 API Overview
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Method | Endpoint | Description |
+|------|---------|------------|
+| POST | `/api/movies` | Add a new movie |
+| GET | `/api/movies` | Get all movies |
+| GET | `/api/movies/:id` | Get movie by ID |
+| PUT | `/api/movies/:id` | Update movie |
+| DELETE | `/api/movies/:id` | Delete movie |
+| GET | `/api/movies/search` | Search by title |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👩‍💻 Developed By
 
-### Analyzing the Bundle Size
+**Priya**  
+Full Stack Web Developer (MERN)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A self-driven developer focused on writing clean code, building scalable backends, and creating intuitive user interfaces.  
+This project demonstrates practical full-stack development skills using modern web technologies.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
